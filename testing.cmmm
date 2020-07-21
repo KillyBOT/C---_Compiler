@@ -1,0 +1,18 @@
+/* Just testing*/
+
+int a;
+char b;
+double c;
+
+/* Things I want to add: */
+/* Pointers: int* a; */
+/* Arrays: char b[64]; */
+/* Sign specification: unsigned int a */
+/* Floating point numbers: float d; double c; */
+
+a = 0;
+while (a < 10){
+	a = a + 1;
+	/* Later replace this with a++ */
+}
+

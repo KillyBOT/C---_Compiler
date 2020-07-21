@@ -1,0 +1,22 @@
+/* int n1, n2, n3, iter, iterMax; */
+/* I will strive for this later, but for now I will just declare each separately. */
+int n1;
+int n2;
+int n3;
+int iter;
+int iterMax;
+
+n1 = 1;
+n2 = 1;
+iterMax = 10; /*Go to the nth fibonacci number*/
+
+if(iter == 1) return(n1); /*This should be a print of some sort, but I think that's a 
+elif(iter == 2) return(n2);
+
+for (iter =  2; iter < iterMax; iter = iter + 1) {
+	n3 = n1 + n2;
+	n1 = n2;
+	n2 = n3;
+}
+
+return(n3);
