@@ -7,10 +7,11 @@ I loved using lex and yacc with my graphics engine, so I decided that I would go
 
 - Basic variable definitions (int, char, double maybe, etc.)
 	- I don't know if I want different base structures, maybe I will handle strings and things like that in seperate libraries
+	- 0x for hex, 0 for octal, 0b for binary
 - Comments (/* comment text goes here \*/)
 	- C++ style comments (// Comment text goes here) also sound good, I'll try to add them as well
 - Expression evaluations (a + b * c ^ d)
-	- + for addition, - for subtraction, * for multiplication, / for division, % for modulous, ^ for exponential
+	- + for addition, - for subtraction, * for multiplication, / for division, % for modulous, // for quotient
 	- Parenthesis too!
 - Boolean logic evaluation (a and b or c and not d xor e)
 - Bitwise operations
